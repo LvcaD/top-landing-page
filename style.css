@@ -1,3 +1,5 @@
+/* Colors and fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
@@ -35,6 +37,13 @@ button {
     color: #1F2937
 }
 
+.box {
+    border: 3px solid #3882F6;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+
 .container-three {
     background-color: #E5E7EB;
 }
@@ -54,4 +63,60 @@ button {
 .blue-container {
     background-color: #3882F6;
 }
+
+/* Styling */
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+  }
+  
+ul {
+    /* this removes the dots on the list items and removes odd formatting*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+/* Alignment */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-header {
+    display: flex;
+    gap: 8px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+.container-one {
+    display: flex;
+}
+
+.container-two-s1 {
+    display: flex;
+}
+
+.blue-container {
+    display: flex;
+}
+
+/* TBD - Want to add padding on each side
+
+.header, .container-one, .container-two, .container-three, .container-four {
+    padding: 0 25px;
+}
+
+*/
 

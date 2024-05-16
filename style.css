@@ -133,8 +133,6 @@ ul {
     justify-content: center;
 }
 
-* {border: 1px solid red}
-
 .container-one-s1 {
     width: 500px;
     margin-right: 32px;
@@ -161,7 +159,8 @@ ul {
     display: flex;
     justify-content: center;
     gap: 24px; 
-    padding: 0 150px 50px 150px;
+    padding: 0 100px 50px 100px;
+    flex-wrap: wrap;
 }
 
 .box-container {
@@ -204,4 +203,3 @@ ul {
     padding: 16px;
     text-align: center;
 }
-
